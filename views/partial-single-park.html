@@ -4,7 +4,7 @@
     </div>
     <div class="clearfix">
         <ul style="margin-top: 16px;">
-            ${reviewData.map(review => 
+            ${reviewData.map(review => return `
                 <li>
                     <span class="rating" style="display: inline-block; width: 100%;">${review.score} Stars</span>
                     <p>${review.content}</p>
